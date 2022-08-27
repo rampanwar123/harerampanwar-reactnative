@@ -13,7 +13,7 @@ import Constants from '../../constants/Constants';
 const NewProduct = () => {
   const [title,setTitle] = useState('')
   const [discription,setDiscription] = useState('')
-  const [link,setLink] = useState('https://picsum.photos/200/300')
+  const [link,setLink] = useState('')
   const [price,setPrice] = useState('')
   const [category,setCategory] = useState('')
   const [loading,setLoading]=useState(false)
